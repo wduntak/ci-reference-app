@@ -1,0 +1,16 @@
+{
+  "name": "ci-reference-app",
+  "scripts": {
+  },
+  "env": {
+    "NODE_ENV": "staging"
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
