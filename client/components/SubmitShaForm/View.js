@@ -34,7 +34,7 @@ export default class SubmitShaForm extends PureComponent {
   render () {
     return (
       <form className={classNames(featureFlags.redTable && 'red-table')} onSubmit={this.onSubmit}>
-        <input type='text' value={this.state.text} onChange={this.onTextChange} required />
+        <input type='text' value={this.state.text} onChange={this.onTextChange} required aria-label="Input" />
         <button type='submit'>Submit</button>
 
         <table>
